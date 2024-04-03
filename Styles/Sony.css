@@ -1,0 +1,123 @@
+body {background-color: white}
+h1 {color: black;}
+
+.top-right-buttons {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-back {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: rgb(228, 228, 228);
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+}
+
+.imagem-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game-col {
+    width: 500px;
+    min-width: 100px;
+    max-width: 500px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.game2-col {
+    vertical-align: middle;
+}
+
+.date-col {
+    width: 100px;
+    min-width: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.state-col {
+    width: 30px;
+    min-width: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.state2-col {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.state2-col .form-check {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.actions-col {
+    width: 100px;
+    min-width: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.rating-col {
+    width: 70px;
+    min-width: 70px;
+    max-width: 70px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.console-col {
+    width: 150px;
+    min-width: 150px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 1vw;
+    background: gray;
+    color: white;
+    font-weight: 500;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}

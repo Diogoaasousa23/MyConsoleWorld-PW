@@ -1,0 +1,36 @@
+/* Estilo para o card de gestão de perfil no canto superior direito */
+#profileCard {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* Estilo para o botão dentro do card de gestão de perfil */
+#profileCard .btn {
+    width: 100%;
+}
+
+
+#btn-back {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 1vw;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-weight: 500;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
