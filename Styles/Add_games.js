@@ -8,11 +8,13 @@ document.addEventListener("DOMContentLoaded", function () {
         const gameNameInput = document.getElementById("GameName");
         const gameDateInput = document.getElementById("GameDate");
         const gameConsoleInput = document.getElementById("GameConsole");
+        const gameStateInput = document.getElementById("GameState");
         const gameRatingInput = document.getElementById("gameRating"); // Adicionando a referência ao campo de entrada do rating
 
         const gameName = gameNameInput.value;
         const gameDate = gameDateInput.value;
         const gameConsole = gameConsoleInput.value;
+        const gameState = gameStateInput.value;
         const gameRating = gameRatingInput.value; // Obtendo o valor do campo de entrada do rating
 
         const newRow = document.createElement("tr");
@@ -20,12 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <td class="td game2-col">${gameName}</td>
             <td class="td date-col">${gameDate}</td>
             <td class="td console-col">${gameConsole}</td>
-            <td class="td state2-col">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault"></label>
-                </div>
-            </td>
+            <td class="td state2-col">${gameState}</td>
             <td class="td rating-col">${gameRating}</td>
             <td class="actions-col">
                 <button type="button" class="btn btn-sm btn-outline-primary edit-Game-btn" data-bs-toggle="modal" data-bs-target="#editGameModal">Edit</button>
@@ -38,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         gameNameInput.value = "";
         gameDateInput.value = "";
         gameConsoleInput.value = "";
+        gameStateInput.value = "";
         gameRatingInput.value = ""; // Limpar também o campo de entrada do rating
 
         // Fechar o modal

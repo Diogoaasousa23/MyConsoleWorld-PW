@@ -47,15 +47,18 @@ h1 {color: black;}
 }
 
 .game-col {
-    width: 500px;
+    width: 400px;
     min-width: 100px;
-    max-width: 500px;
-    vertical-align: middle;
+    max-width: 400px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .game2-col {
+    max-width: 400px;
     vertical-align: middle;
+    justify-content: center;
 }
 
 .date-col {
@@ -63,11 +66,12 @@ h1 {color: black;}
     min-width: 100px;
     vertical-align: middle;
     text-align: center;
+    align-items: center;
 }
 
 .state-col {
-    width: 30px;
-    min-width: 30px;
+    width: 70px;
+    min-width: 70px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -75,11 +79,6 @@ h1 {color: black;}
 
 .state2-col {
     text-align: center;
-    vertical-align: middle;
-}
-
-.state2-col .form-check {
-    display: inline-block;
     vertical-align: middle;
 }
 

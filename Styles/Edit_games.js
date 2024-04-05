@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById('editGameName').value = gameName;
         document.getElementById('editGameDate').value = gameDate;
         document.getElementById('editGameConsole').value = gameConsole;
+        document.getElementById('editGameState').value = gameState;
         document.getElementById('editGameRating').value = gameRating;
     }
 
@@ -19,9 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
             const gameName = gameRow.querySelector('.game2-col').innerText;
             const gameDate = gameRow.querySelector('.date-col').innerText;
             const gameConsole = gameRow.querySelector('.console-col').innerText;
+            const gameState = gameRow.querySelector('.state2-col').innerText;
             const gameRating = gameRow.querySelector('.rating-col').innerText;
 
-            fillEditForm(gameName, gameDate, gameConsole, gameRating);
+            fillEditForm(gameName, gameDate, gameConsole, gameState, gameRating);
             currentGameRow = gameRow; // Armazenar a linha do jogo atual
             editGameModal.show();
         }
@@ -35,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const editedGameName = document.getElementById('editGameName').value;
         const editedGameDate = document.getElementById('editGameDate').value;
         const editedGameConsole = document.getElementById('editGameConsole').value;
+        const editedGameState = document.getElementById('editGameState').value;
         const editedGameRating = document.getElementById('editGameRating').value;
 
         // Verificar se o campo obrigatório (nome do jogo) está vazio
@@ -47,6 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
         currentGameRow.querySelector('.game2-col').innerText = editedGameName;
         currentGameRow.querySelector('.date-col').innerText = editedGameDate;
         currentGameRow.querySelector('.console-col').innerText = editedGameConsole;
+        currentGameRow.querySelector('.state2-col').innerText = editedGameState;
         currentGameRow.querySelector('.rating-col').innerText = editedGameRating || ''; // Se o rating estiver vazio, definir como vazio
 
         // Fechar o modal de edição
