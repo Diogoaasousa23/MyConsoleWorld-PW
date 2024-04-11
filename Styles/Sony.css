@@ -8,10 +8,17 @@ h1 {color: black;}
 }
 
 .bg-image {
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/451/1007/589/sony-playstation-wallpaper-preview.jpg');
-    height: 100vh;
-    opacity: 30%;
+    opacity: 0.3;
+    z-index: -1;
+    position: fixed; /* Mudança para position fixed para cobrir toda a página */
+    top: 0;
+    left: 0;
+    width: 100%; /* Definir a largura para cobrir a largura da página */
+    height: 100%; /* Definir a altura para cobrir a altura da página */
+    background-size: cover; /* Redimensiona a imagem para cobrir toda a área disponível */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
 }
+
 
 .center {
     display: flex;
@@ -30,6 +37,10 @@ h1 {color: black;}
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.Game-container {
+    margin-bottom: 50px;
 }
 
 .btn {
@@ -125,4 +136,5 @@ h1 {color: black;}
     justify-content: center;
     align-items: center;
     gap: 0.2rem;
+    z-index: 1;
 }

@@ -1,11 +1,48 @@
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-.imagem-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+h1 {
+    color: white;
+}
+
+.header-container {
+    height: 100px;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom:100%;
+}
+
+.bg-image {
+    opacity: 0.3;
+    position: absolute;
+    top: 0; /* Ajustado */
+    left: 0;
+    width: 100%; /* Ajustado */
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.company-name {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    color: white; /* Adicionado */
+}
+
+.buttons .btn {
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
 }
 
 .footer {
@@ -14,18 +51,31 @@ body {
     background: rgb(0, 0, 0);
     color: white;
     font-weight: 500;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.2rem;
+    margin-top: 100%;
 }
 
-/* Ajustes para os botões */
-.btn {
-    display: block;
-    width: 100%; /* Para ocupar toda a largura do container */
+.small-image {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.top-left {
+    top: 270px;
+    left: 70px;
+}
+
+.top-right {
+    top: 270px;
+    right: 70px;
+}
+
+.bottom-left {
+    bottom: -100px;
+    left: 70px;
+}
+
+.bottom-right {
+    bottom: -100px;
+    right: 70px;
 }
