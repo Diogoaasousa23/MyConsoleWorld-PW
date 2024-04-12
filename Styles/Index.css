@@ -44,13 +44,14 @@ h1 {
     font-size: 2vh;
     line-height: 2vh;
     white-space: nowrap;
+    margin-right: 5%;
 }
 
 .bg-image {
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    opacity: 0.35;
+    height: 100%;
+    opacity: 0.40;
     position: absolute;
     top: calc(30vh - 15vh);
     left: 50%;
@@ -78,12 +79,16 @@ h1 {
 
 .top-left {
     top: 30%;
-    left: 10%;
+    left: 30%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
 }
 
 .top-right {
     top: 30%;
-    right: 10%;
+    right: 30%;
+    transform: translateY(-50%);
+    transform: translateX(50%);
 }
 
 .bottom-left {
@@ -93,7 +98,7 @@ h1 {
 }
 
 .bottom-right {
-    bottom: 5%;
+    bottom: 7%;
     right: 30%;
     transform: translateX(50%); /* Adiciona este transform para centralizar horizontalmente */
 }
@@ -133,6 +138,10 @@ h1 {
     z-index: 1;
 }
 
+.img-games{
+    height: 190px;
+    width: 135px;
+}
 
 .footer {
     text-align: center;
@@ -140,5 +149,5 @@ h1 {
     background: rgb(0, 0, 0);
     color: white;
     font-weight: 500;
-    margin-top: 100%;
+    margin-top: 1%;
 }
