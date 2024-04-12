@@ -1,25 +1,29 @@
 body {
-    background-color: #f8f9fa; /* Alterando a cor de fundo do corpo */
+    background-color: #ffffff;
+}
+
+.login-container {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.login-line {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    background-color: #1B1D4C;
 }
 
 .footer {
-    text-align: center;
-    padding: 5px;
-    background: rgb(0, 0, 0);
-    color: white;
-    font-weight: 500;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.2rem;
-}
-
-#btn-back {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    text-align: center;
+    padding: 0.5vw;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-weight: 500;
 }

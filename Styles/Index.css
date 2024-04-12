@@ -105,8 +105,8 @@ h1 {
 
 
 .inline-image {
-    width: 200px;
-    height: 200px;
+    width: 70%;
+    height: 25%;
     margin-top: 90vh; /* Mova a imagem mais para baixo, ajuste conforme necessário */
     margin-right: auto;
     margin-left: auto;
@@ -114,9 +114,9 @@ h1 {
 }
 
 .inline-image2 {
-    width: 300px;
-    height: 200px;
-    margin-top: 90vh; /* Mova a imagem mais para baixo, ajuste conforme necessário */
+    width: 75%;
+    height: 25%;
+    margin-top: 90vh;
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -139,22 +139,22 @@ h1 {
 }
 
 .img-games{
-    height: 190px;
-    width: 135px;
+    height: 90%;
+    width: 90%;
     margin-left: 15%;
     margin-right: 15%;
 }
 
 .img-games1{
-    height: 190px;
-    width: 135px;
+    height: 90%;
+    width: 90%;
     margin-left: 25%;
     margin-right: 5%;
 }
 
 .img-games2{
-    height: 190px;
-    width: 135px;
+    height: 90%;
+    width: 90%;
     margin-left: 5%;
     margin-right: 25%;
 }
@@ -165,5 +165,5 @@ h1 {
     background: rgb(0, 0, 0);
     color: white;
     font-weight: 500;
-    margin-top: 1%;
+    margin-top: 10%;
 }

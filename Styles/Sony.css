@@ -8,7 +8,7 @@ h1 {color: black;}
 }
 
 .bg-image {
-    opacity: 0.3;
+    opacity: 0.4;
     z-index: -1;
     position: fixed; /* Mudança para position fixed para cobrir toda a página */
     top: 0;
