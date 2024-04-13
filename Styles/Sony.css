@@ -10,13 +10,13 @@ h1 {color: black;}
 .bg-image {
     opacity: 0.4;
     z-index: -1;
-    position: fixed; /* Mudança para position fixed para cobrir toda a página */
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Definir a largura para cobrir a largura da página */
-    height: 100%; /* Definir a altura para cobrir a altura da página */
-    background-size: cover; /* Redimensiona a imagem para cobrir toda a área disponível */
-    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 

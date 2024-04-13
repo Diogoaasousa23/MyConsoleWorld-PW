@@ -10,20 +10,20 @@ h1 {
 }
 
 .header-container {
-    height: 15vh;
+    height: 100%;
     background-color: black;
     width: 100%;
     z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 1% 2%;
     box-sizing: border-box;
 }
 
 .logo {
-    width: auto;
-    height: 100%;
+    width: 8%;
+    height: 90%;
 }
 
 .company-name {
@@ -35,98 +35,91 @@ h1 {
 
 .buttons {
     display: flex;
-    justify-content: space-between;
 }
 
 .buttons .btn {
-    width: 6vw;
-    height: 4vh;
-    font-size: 2vh;
-    line-height: 2vh;
+    width: 100%;
+    font-size: 100%;
+    line-height: 100%;
     white-space: nowrap;
     margin-right: 5%;
 }
 
-.bg-image {
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    opacity: 0.40;
-    position: absolute;
-    top: calc(30vh - 15vh);
-    left: 50%;
-    transform: translateX(-50%);
-    right: 50%;
-    bottom: 0;
-    z-index: -1;
-    background-repeat: no-repeat;
+.container-bg {
+    position: relative;
 }
 
+.bg-image {
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    position: relative;
+    margin-top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+
 .image-with-text {
-    position: absolute;
+    position: relative;
     text-align: center;
 }
 
 .small-image {
-    width: 8%;
-    height: auto;
+    position: relative;
+    width: 5%;
 }
 
 .image-text {
-    margin-top: 10px;
+    position: relative;
+    margin-top: 1%;
     display: block;
 }
 
 .top-left {
     top: 30%;
-    left: 30%;
-    transform: translateY(-50%);
-    transform: translateX(-50%);
+    left: 26%;
 }
 
 .top-right {
-    top: 30%;
-    right: 30%;
-    transform: translateY(-50%);
-    transform: translateX(50%);
+    bottom: 30%;
+    right: 26%;
 }
 
 .bottom-left {
-    bottom: 5%;
-    left: 30%;
-    transform: translateX(-50%); /* Adiciona este transform para centralizar horizontalmente */
+    bottom: 10%;
+    left: 26%;
 }
 
 .bottom-right {
-    bottom: 7%;
-    right: 30%;
-    transform: translateX(50%); /* Adiciona este transform para centralizar horizontalmente */
+    bottom: 10%;
+    right: 26%;
 }
 
-
-.inline-image {
-    width: 70%;
-    height: 25%;
-    margin-top: 90vh; /* Mova a imagem mais para baixo, ajuste conforme necessário */
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
+.video-container {
+    position: relative;
+    margin-top: -10%;
+    padding-top: 10.25%;
+    
 }
 
-.inline-image2 {
-    width: 75%;
-    height: 25%;
-    margin-top: 90vh;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
+.video-container iframe {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
+.container {
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+}
 
 .hr {
     background-color: #1B1D4C;
-    margin-top: 2.5vh;
-    height: 10vh;
+    width: 100%;
+    height: 2.5vw;
     position: relative;
 }
 
@@ -139,24 +132,17 @@ h1 {
 }
 
 .img-games{
-    height: 90%;
-    width: 90%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.img-games1{
-    height: 90%;
-    width: 90%;
-    margin-left: 25%;
-    margin-right: 5%;
+    height: 85%;
+    width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .img-games2{
-    height: 90%;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 25%;
+    height: 100%;
+    width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .footer {
@@ -165,5 +151,5 @@ h1 {
     background: rgb(0, 0, 0);
     color: white;
     font-weight: 500;
-    margin-top: 10%;
+    margin-top: 3%;
 }
