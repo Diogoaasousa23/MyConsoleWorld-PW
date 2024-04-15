@@ -42,17 +42,17 @@ const trendingPrevBtn = document.createElement('button');
 trendingPrevBtn.classList.add('btn', 'btn-primary', 'prev-btn');
 trendingPrevBtn.innerHTML = '<'; // Use um ícone de seta para a esquerda aqui
 trendingPrevBtn.style.height = '35%'; // Definir a altura do botão
-trendingPrevBtn.style.width = '5%'; // Definir a largura do botão
+trendingPrevBtn.style.width = '3%'; // Definir a largura do botão
 trendingPrevBtn.style.marginTop = '6%'; // Adicionar margem superior para baixar um pouco
-trendingPrevBtn.style.marginLeft = '6%';
+trendingPrevBtn.style.marginLeft = '3%';
 
 const trendingNextBtn = document.createElement('button');
 trendingNextBtn.classList.add('btn', 'btn-primary', 'next-btn');
 trendingNextBtn.innerHTML = '>'; // Use um ícone de seta para a direita aqui
 trendingNextBtn.style.height = '35%'; // Definir a altura do botão
-trendingNextBtn.style.width = '5%'; // Definir a largura do botão
+trendingNextBtn.style.width = '3%'; // Definir a largura do botão
 trendingNextBtn.style.marginTop = '6%'; // Adicionar margem superior para baixar um pouco
-trendingNextBtn.style.marginRight = '6%';
+trendingNextBtn.style.marginRight = '2%';
 
 // Event Listeners para os botões de controle dos "Trending games"
 trendingNextBtn.addEventListener('click', nextTrendingSlides);
@@ -114,17 +114,18 @@ const allTimePrevBtn = document.createElement('button');
 allTimePrevBtn.classList.add('btn', 'btn-primary', 'prev-btn');
 allTimePrevBtn.innerHTML = '<'; // Use um ícone de seta para a esquerda aqui
 allTimePrevBtn.style.height = '35%'; // Definir a altura do botão
-allTimePrevBtn.style.width = '5%'; // Definir a largura do botão
+allTimePrevBtn.style.width = '3%'; // Definir a largura do botão
 allTimePrevBtn.style.marginTop = '6%'; // Adicionar margem superior para baixar um pouco
-allTimePrevBtn.style.marginLeft = '6%';
+allTimePrevBtn.style.marginLeft = '3%'; // Alinha o botão à borda esquerda do contêiner pai
+
 
 const allTimeNextBtn = document.createElement('button');
 allTimeNextBtn.classList.add('btn', 'btn-primary', 'next-btn');
 allTimeNextBtn.innerHTML = '>'; // Use um ícone de seta para a direita aqui
 allTimeNextBtn.style.height = '35%'; // Definir a altura do botão
-allTimeNextBtn.style.width = '5%'; // Definir a largura do botão
+allTimeNextBtn.style.width = '3%'; // Definir a largura do botão
 allTimeNextBtn.style.marginTop = '6%'; // Adicionar margem superior para baixar um pouco
-allTimeNextBtn.style.marginRight = '6%';
+allTimeNextBtn.style.marginRight = '2%';
 
 // Event Listeners para os botões de controle dos "All time popular games"
 allTimeNextBtn.addEventListener('click', nextAllTimeSlides);
