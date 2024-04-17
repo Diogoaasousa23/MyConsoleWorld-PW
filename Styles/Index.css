@@ -158,16 +158,24 @@ h1 {
     width: 85%;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: -1.2vw !important;
+    margin-bottom: -1.3vw !important;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  width: 5% !important; /* Defina o tamanho desejado */
-  height: 30% !important; /* Defina o tamanho desejado */
+#carouselExampleCaptions .carousel-control-prev,
+#carouselExampleCaptions .carousel-control-next {
+  width: 5% !important;
+  height: 30% !important;
   margin: auto;
   background-color: #1B1D4C !important; 
   opacity: 100%  !important;
+}
+#carouselExampleCaptions2 .carousel-control-prev,
+#carouselExampleCaptions2 .carousel-control-next {
+    width: 5% !important;
+    height: 35% !important;
+    margin: auto;
+    background-color: #1B1D4C !important; 
+    opacity: 100%  !important;
 }
 
 
