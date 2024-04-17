@@ -94,7 +94,7 @@ h1 {color: black;}
 
 .footer {
     text-align: center;
-    padding: 0.5%;
+    padding: 5px;
     background: rgb(0, 0, 0);
     color: white;
     font-weight: 500;
@@ -105,5 +105,5 @@ h1 {color: black;}
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    gap: 0.2rem;
 }
