@@ -49,6 +49,12 @@ h1 {color: black;}
     justify-content: center;
 }
 
+.Game2-col {
+    max-width: 40%;
+    vertical-align: middle;
+    justify-content: center;
+}
+
 .date-col {
     width: 10%;
     min-width: 10%;
