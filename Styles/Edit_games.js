@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const editGameModal = new bootstrap.Modal(document.getElementById('editGameModal'));
     const updateGameBtn = document.getElementById('updateGameBtn');
     const deleteGameBtn = document.getElementById('deleteGameBtn');
-    let currentGameRow; // Armazenar a linha do jogo atualmente sendo editado/deletado
+    let currentGameRow; // Armazenar a linha do jogo a ser editada/apagada
   
     // Função para preencher o formulário de edição com os detalhes do jogo
     function fillEditForm(gameName, gameDate, gameConsole, gameState, gameRating) {
